@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>	
+    <div class="container-fluid h-100 d-flex justify-content-center align-items-center">
+        <form class="log-in__form d-flex flex-column align-items-center text-white" th:action="@{/login-check}" method="post" th:object="${userInfo}">
+            <i class="fa-solid fa-users"></i>
+
+            <h1 class="m-0">Member Login</h1>
+    		
+    		<div class="w-100">
+            	<div class="form-group d-flex align-items-center">
+                	<input class="py-2 h-100 w-100 text-white" type="text" name="userName" placeholder="admin">
+                	<i class="fa-solid fa-user"></i>
+            	</div>
+            	
+            	<span id="unameMsg"></span>
+            </div>
+    		
+    		<div class="w-100">
+            	<div class="form-group d-flex align-items-center">
+                	<input class="py-2 h-100 w-100 text-white" type="password" name="password" placeholder="admin">
+                	<i class="fa-solid fa-lock"></i>
+            	</div>
+            	
+            	<span id="passMsg"></span>
+            </div>
+
+            <div class="w-100">
+                <div class="form-group d-flex align-items-center">
+                    <h4>
+                        TK : admin
+                        <br>
+                        MK : admin
+                    </h4>
+                </div>
+
+                <span id=""></span>
+            </div>
+    
+            <button class="w-100 py-3 border-0 bg-primary text-white">Sign in</button>
+
+            <a href="" class="text-white">Forgot Password?</a>
+        </form>
+    </div>
+    
+    <script src="/js/login.js"></script>
+</body>
+</html>

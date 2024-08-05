@@ -1,0 +1,130 @@
+
+h4 {
+    text-align: center;
+}
+
+.right {
+    /*text-align: right;*/
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+
+.search_wrap {
+    display: flex;
+    margin-block: 10px;
+    justify-content: space-between;
+}
+
+#certName {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #565ea6;
+}
+
+#Show {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #b4b8d0;
+}
+
+.form-select {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #b4b8d0;
+}
+
+th {
+    background-color: #009688;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    padding: 8px;
+    /*height: 50px;*/
+}
+
+
+.create {
+    background-color: #009688;
+    color: white;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.update {
+    background-color: #FFC107;;
+    color: white;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: rgb(255, 62, 62);
+    color: white;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.paging {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    border: none;
+}
+
+.page {
+    float: right;
+}
+
+.pagination {
+    margin: 0 !important;
+}
+
+.mr-2, .mx-2 {
+    margin-right: 0.5rem !important;
+}
+
+#content select {
+    height: auto;
+    padding: 0.25rem 0.5rem !important;
+    font-size: 1.4rem !important;
+}
+
+.ml-2, .mx-2 {
+    margin-left: 0.5rem !important;
+}
+
+.header_navbar-item {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-section {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.bold {
+    padding: 0 0 30px 0;
+}
+
+.alert {
+    display: none;
+}

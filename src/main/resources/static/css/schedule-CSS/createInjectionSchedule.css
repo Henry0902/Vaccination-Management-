@@ -1,0 +1,18 @@
+.form_content {
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.form_content select {
+	width: 80%;
+	font-size: 1.4rem !important;
+}
+
+.form_content input, textarea {
+	width: 80%;
+}
+
+.form_content button {
+	box-shadow: 3px 3px 3px #888888;
+	font-size: 1.5rem;
+}
